@@ -7,7 +7,7 @@
 
 /* ===================== CUERPO ===================== */
 body {
-    background-color:#f0f0f0;
+    background-color: #f0f0f0;
     font-family: 'Copperplate Gothic', sans-serif;
     line-height: 1.4;
     padding: 10px;
@@ -23,7 +23,6 @@ body {
     flex-direction: column;
     align-items: center;
     padding: 10px;
-    /* altura fija eliminada para evitar problemas en móvil */
 }
 
 /* ===================== MENÚ CON LOGO ===================== */
@@ -115,21 +114,22 @@ img {
     height: auto;
     border-radius: 10px;
 }
-/*==============PARA PRODUCTOS Y SERVICIOS===============*/
+
+/* ===================== PRODUCTOS Y SERVICIOS ===================== */
 .contenido {
     display: flex;
     gap: 20px;
     padding: 20px;
 }
 
-section {
+.contenido section {
     flex: 2;
     background-color: white;
     padding: 15px;
     border-radius: 8px;
 }
 
-aside {
+.contenido aside {
     flex: 1;
     background-color: #f7f7f7;
     padding: 15px;
@@ -160,5 +160,8 @@ aside {
     .ajuste {
         max-width: 100%;
         width: 100%;
+    }
+    .contenido {
+        flex-direction: column;
     }
 }
