@@ -16,7 +16,7 @@ body {
 /* ===================== CONTENEDOR PRINCIPAL ===================== */
 #principal, #principal2, .principal {
     width: 100%;
-    max-width: 1200px; /* limitar ancho para pantallas muy grandes */
+    max-width: 1200px; 
     margin: 0 auto;
     background-color: #f0f0f0;
     display: flex;
@@ -33,7 +33,7 @@ nav {
     background-color: black; 
     padding: 10px 20px;
     gap: 20px;
-    flex-wrap: wrap; /* que el menú baje en pantallas pequeñas */
+    flex-wrap: wrap;
 }
 
 .logo {
@@ -75,7 +75,7 @@ footer {
     display: flex;
     flex-direction: column;
     margin-top: 50px;
-    width: 90%; /* para que no se vea tan estrecho en móvil */
+    width: 90%;
     max-width: 700px;
     align-items: center;
     justify-content: center;
@@ -102,12 +102,12 @@ img {
 }
 
 .instalaciones div {
-    flex: 1 1 45%; /* casi la mitad, se adapta */
+    flex: 1 1 45%; 
     text-align: center;
     margin-bottom: 15px;
 }
 
-/* La clase .ajuste la dejamos para imágenes en instalaciones */
+
 .ajuste {
     width: 100%;
     max-width: 250px;
