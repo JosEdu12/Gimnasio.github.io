@@ -115,8 +115,28 @@ img {
     height: auto;
     border-radius: 10px;
 }
+/*==============PARA PRODUCTOS Y SERVICIOS===============*/
+.contenido {
+    display: flex;
+    gap: 20px;
+    padding: 20px;
+}
 
-/* ==================== MEDIA QUERIES PARA MÓVILES ==================== */
+section {
+    flex: 2;
+    background-color: white;
+    padding: 15px;
+    border-radius: 8px;
+}
+
+aside {
+    flex: 1;
+    background-color: #f7f7f7;
+    padding: 15px;
+    border-radius: 8px;
+}
+
+/* ==================== PARA MÓVILES ==================== */
 @media (max-width: 600px) {
     nav {
         flex-direction: column;
